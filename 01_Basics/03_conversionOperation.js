@@ -9,10 +9,23 @@ let scoreInNumber = Number(score);
 // true => 1 ; false => 0
 
 let isLoggedIn = 1
-console.log(isLoggedIn)
+//console.log(isLoggedIn)
 let BooleanLoggedIn = Boolean(isLoggedIn)
-console.log(BooleanLoggedIn)
+//console.log(BooleanLoggedIn)
 
 // 1 => true ; 0 => false
 // "" => false ; "karan" => true
+
+//********************** Operations **************************
+
+let value = 9
+let negValue = -value
+console.log(negValue) 
+
+// 2+2
+// 2-2
+// 2*2
+// 2**2 // 2 raise to the power 2
+// 2/2
+// 2%2
 
