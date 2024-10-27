@@ -49,4 +49,24 @@ const user = [
 console.log(Object.entries(tinderUser)) //gives array of Aarray
 console.log(tinderUser.hasOwnProperty('isLoggedin')) // tells if a key is present or not in the object
 
+//object destructure
+const course = {
+    courseName : "js in hindi",
+    price : 999 ,
+    teacher : "hitesh"
+}
+const {teacher} = course // khase value leni h ? course se or kya value leni hai ? teacher
+console.log(teacher) // accessing teacher without using course.teacher
+
+
+// api
+//json javscript object notation , json is basically an object that has no name
+
+//sometimes api's are obtained in the form of array also , array that contains several objects
+//for example :- 
+//               [
+//                {},{},{}
+//                ]
+
+//there are some json formatter available that are used to understand some json api and also to beautify it
 

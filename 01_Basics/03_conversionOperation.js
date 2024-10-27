@@ -14,7 +14,7 @@ let BooleanLoggedIn = Boolean(isLoggedIn)
 //console.log(BooleanLoggedIn)
 
 // 1 => true ; 0 => false
-// "" => false ; "karan" => true
+// "" => false ; "himanshi" => true
 
 //********************** Operations **************************
 
@@ -28,4 +28,4 @@ console.log(negValue)
 // 2**2 // 2 raise to the power 2
 // 2/2
 // 2%2
-//
+
