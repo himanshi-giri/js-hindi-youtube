@@ -24,7 +24,7 @@ const dc = ["superman","flash","batman"]
 
  console.log(Array.isArray("Himanshi")) // himanshi is a string
  console.log(Array.from("himanshi")) // converts string into array
- console.log(Array.from({name : "hiamsnhi"})) // interesting , it will give [] as output , we need to tell , either key is used or value is used in order to make an array 
+ console.log(Array.from({name : "hiamsnhi"})) // interesting , it will give [] as output , we need to tell , either key is used or value is used in order to make an array , so we should define either keys or values for this
 
  let score1 = 100
  let score2 = 200
