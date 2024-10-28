@@ -32,8 +32,8 @@ const myFunction = function(){
 
 
 // ques :- is javascript dynamically or statically typed language?
-//ans:-  In dynamically typed languages all type checks are performed in a runtime, only when your program is executing. So this means you can just assign anything you want to the variable and it will work.
-// Typescript, it is a statically typed language, so all checks will be performed during compile/build run before we actually execute our program.
+//ans:-  In dynamically typed languages(js and python) all type checks are performed in a runtime, only when your program is executing. So this means you can just assign anything you want to the variable and it will work.
+// Typescript, is a statically typed language, so all checks will be performed during compile/build run before we actually execute our program.
 
 //reference link:-https://ecma-international.org/5.1/#sec-11.4.3
 
@@ -46,7 +46,7 @@ const myFunction = function(){
 let myName = "himanshi"
 let anotherName = myName
 anotherName = "chaeOrCode" 
-console.log(myName) // here the value remains as it was before because it is a primitive type and is stored in stack which shares the copy of the object hence the original value is never altered
+console.log(myName) // here the value remains as it was before because it is a primitive type and is stored in stack which shares the copy of the object hence the original value is never altered.
 console.log(anotherName)
 
 let userOne={
