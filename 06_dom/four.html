@@ -13,7 +13,7 @@
 <script>
     function addLang(lang)
 {    const li = document.createElement("li");
-    li.innerHTML=lang;
+    li.innerHTML=lang;                        // it does HTML Parsing , that is it parses the code into the dom,  This DOM is what allows JavaScript to interact with the HTML elements on the page, letting us modify content, styles, or add interactivity.
     document.querySelector('.language').appendChild(li);  
 }
 addLang("pyhton");
@@ -21,7 +21,7 @@ addLang("Typescript");
 
 function addOptiLang(lang){
     const li = document.createElement("li");
-    li.appendChild(document.createTextNode(lang));
+    li.appendChild(document.createTextNode(lang)); //  In contrast, methods like createTextNode allow direct insertion of text without treating it as HTML, making it faster and safer in cases where we’re only working with text.
     document.querySelector('.language').appendChild(li);
 }
 addOptiLang("java");
