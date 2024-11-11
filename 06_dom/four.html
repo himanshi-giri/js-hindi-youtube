@@ -11,6 +11,7 @@
     </ul>
 </body>
 <script>
+    //add elements
     function addLang(lang)
 {    const li = document.createElement("li");
     li.innerHTML=lang;                        // it does HTML Parsing , that is it parses the code into the dom,  This DOM is what allows JavaScript to interact with the HTML elements on the page, letting us modify content, styles, or add interactivity.
@@ -25,5 +26,21 @@ function addOptiLang(lang){
     document.querySelector('.language').appendChild(li);
 }
 addOptiLang("java");
+
+//Edit element
+const secEle = document.querySelector("li:nth-child(2)");
+const newLi = document.createElement('li');
+//secEle.innerHTML="MOjo";
+newLi.textContent="Mojo";
+secEle.replaceWith(newLi); // python is replaced with mojo
+
+//edit type2
+const firstEle = document.querySelector("li:first-child");
+firstEle.outerHTML='<li>Typescript</li>'; //replaced javascript with typescript
+
+//remove (removing last element)
+const lastLang = document.querySelector('li:last-child');
+lastLang.remove();
+
 </script>
 </html>
