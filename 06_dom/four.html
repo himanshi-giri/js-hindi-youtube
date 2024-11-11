@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    function addLang(lang)
+{    const li = document.createElement("li");
+    li.innerHTML=lang;
+    document.querySelector('.language').appendChild(li);  
+}
+addLang("pyhton");
+addLang("Typescript");
+
+function addOptiLang(lang){
+    const li = document.createElement("li");
+    li.appendChild(document.createTextNode(lang));
+    document.querySelector('.language').appendChild(li);
+}
+addOptiLang("java");
+</script>
+</html>
